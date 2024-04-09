@@ -1,0 +1,58 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include  ../static/style.css
+  body
+    nav#navbar 
+            ul 
+                div#logo
+                   img(src="/static/img/AD.png")
+                   | ADA
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Services]
+                li #[a(href="/") Class Info]
+                li #[a(href="/") Contact Us]          
+     section#introSection 
+           div Welcome to Ankita's Dance Academy
+            div.small Eat Sleep Dance Repeat 
+
+     section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/Dance1.jpg")
+                div.card-content
+                    p Dance perfection melds technical precision, emotional expression, and storytelling.
+
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/Dance2.png")
+                div.card-content
+                    p  Dance the way you like embraces personal expression and joy over technique.
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/Dance3.jpg")
+                div.card-content
+                    p Expert teaching blends deep knowledge, tailored strategies, and empathy.
+     section#sponsorsSection 
+        h2  Our Sponsors
+        div#sponsors 
+            img(src="/static/img/ap.jpg",alt="Sponsor Image",class="spImage")
+            img(src="/static/img/Google.png",alt="Sponsor Image",class="spImage")
+            img(src="/static/img/ms.jpg",alt="Sponsor Image",class="spImage")
+            img(src="/static/img/hp.png",alt="Sponsor Image",class="spImage")
+            img(src="/static/img/sky.png",alt="Sponsor Image",class="spImage")
+
+     footer#footer 
+        |copyright © 2024 AnkitaDanceAcademy.com | All rights reserved
+     script
+       include  ../static/index.js

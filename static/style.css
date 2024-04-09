@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin:0 14px;
+    font-size: 20px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+
+#navbar{
+    background-color:black;
+    padding: 30px, 14px;
+    font-size: 1.2rem;
+    font-family:cursive;
+}
+
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+     /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+    font-size: 20;
+   text-decoration: none;
+    padding: 13px 20px;
+    color:white;
+}
+#navbar li a:hover{
+    color:rgba(103, 162, 185, 0.5);
+}
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 60px;
+    font-family:garamond; 
+    align-items: center;
+    background: center/cover no-repeat url("/static/bg.jpg") ;
+    height: 425px;
+    background-color: rgb(138, 48, 48);
+}
+#introSection div.small{
+    font-size: 50px;
+    font-family:garamond; 
+    padding-left:120px ;
+    padding-top: 5px;
+}
+#missionSection{
+    height: 300px;; 
+    width: 67%;
+    margin: auto;
+}
+#missionSection h2{
+    font-size: 35px;
+    font-family:Arial;
+    text-align: center;
+    padding-top: 8px;
+}
+.card{
+    display:inline-block;
+    border: 4px solid black;
+    border-radius: 10px;
+    width:30%;
+    margin:2px 14px;
+    height: 230px;
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-family: lobster;
+    font-size: 20px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 110px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit; 
+}
+.card-content{
+    padding: 0 10px;
+}
+.card-content p{
+    font-size: 15px;
+}
+ 
+#sponsorsSection{
+    height: 250px; 
+    background: center/cover no-repeat url("/static/img/bg2.jpg") ;
+
+}
+#sponsorsSection h2{
+    text-align: center;
+    font-size: 40px;
+    padding: 12px;
+    font-family:Arial;
+    color:white;
+}
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: 23px auto;
+    
+}
+
+.spImage{
+    height:65%;
+    margin:20px;
+}
+#footer{
+    color: white;
+    background-color: black;
+    height: 60px;
+    font-size: 20px;
+    /* justify-content: center;
+    align-items: center;  THEY BOTH ARE NOT WORKING SO WE USE HERE PADDING */
+    font-size: 20px;
+    padding-left:600px;
+    padding-top: 15px;
+}
